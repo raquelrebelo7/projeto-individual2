@@ -1,0 +1,166 @@
+body{
+    background-image: url(img/DamagedForsakenFoxhound-size_restricted.gif);
+    background-size: auto 230%;
+    background-attachment: fixed, scroll;
+    font-family: "Inconsolata", monospace;
+    align-items: center;
+    margin: 2px;
+    padding: 0;
+}
+h1, h2{
+    text-align: center;
+    color: white;
+    font-family: "Inconsolata", monospace;
+}
+#logtext{
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-left: 0;
+}
+main{
+    justify-content: center;
+    align-items: center;
+}
+label{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+    align-items: center;
+}
+select{
+    width: 50%;
+    margin-left: 25%;
+    padding: 16px 20px;
+    border-radius: 10px;
+    border: 6px;
+    border-style: groove;
+    border-color: rgb(216, 162, 240);
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+select:hover{
+    cursor: pointer;
+}
+.incremento{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.bttns{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input[type="text"]:focus {
+background-color: white;
+border: 3px solid #555;
+}
+input[type="text"] {
+    background-color: white;
+    color: black;
+    width: 50%;
+    padding: 42px 70px;
+    margin: 8px;
+    margin-left: 25%;
+    box-sizing: border-box;
+    border: 6px solid rgb(207, 159, 230);
+    border-style: groove;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input[type="radio"] {
+    padding: 46px 80px;
+}
+button{
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    border:2px solid rgb(251, 244, 244) ;
+    transition-duration: 2.0s;
+}
+button:hover{
+    background-color: rgb(194, 125, 226);
+    color: white;
+    box-shadow: 0 12px 16px #9f5cb03d rgba(163, 9, 171, 0.24);
+    cursor: pointer;
+}
+textarea{
+    margin-left: 25%;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px #999;
+    border-radius: 5px;
+    border: 6px solid rgb(207, 159, 230) ;
+    border-style: groove;
+    padding: 42px 70px;
+    font-size: 20px;
+    color: black;
+}
+textarea[type="text"]:focus {
+background-color: white;
+border: 3px solid #555;
+}
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+.butctt{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: rgb(35, 34, 34);
+    margin: 8px;
+    margin-left: 25%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 46%;
+    border: 4px;
+    border-style: groove;
+    border-color: rgb(216, 162, 240);
+    border-radius: 6px;
+}
+
+#git{
+    background-image: url(img/pngwing.com.png);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 50%;
+    cursor: pointer;
+}
+#linkedin{
+    background-image: url(img/2pngwing.com.png);
+    height: 38px;
+    width: 38px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 80%;
+    cursor: pointer;
+}
+#codificar{
+    cursor: pointer;
+}
+#decodificar{
+    cursor: pointer;
+}

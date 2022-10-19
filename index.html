@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/code-png.png">
+    <title>Mensagem oculta</title>
+</head>
+<body>
+    <form name="formulario">
+        <header>
+          <h1>Codificação e decodificação de mensagens <img id="logtext" src="./img/kindpng_2082370.png" alt="log"></h1>
+          <h2>Cifra de César e base64</h2>
+        <hr />
+        </header>
+
+        <main>
+           <label for="qualPadrao">Digite o texto que deseja codificar:</label>
+         </br>
+         <hr />
+         <input type="text" autocomplete="off" id="texto" placeholder="Digite sua mensagem...">
+         <br />
+
+         <select id="escolhas">
+            <option value="valor0">escolha aqui</option>
+            <option value="cesar">Cifra de césar</option>
+            <option value="base64">Base64</option>
+         </select>
+        <br />
+
+        <div class="incremento" style="display: none;" id="numero">
+          <p>Incremento ( escolha o número da chave )</p>
+          <input id="numeroIncremento" type="number" default="0" min="1" value="1" >
+       </div>
+
+        <br />
+        <br />
+
+        <div class="bttns">
+          <input type="radio" name="botoes" id="codificar" value="codificar" checked="checked">
+          <label for="codificar">CODIFICAR</label>
+          <br />
+          <input type="radio" name="botoes" id="decodificar" value="decodificar" checked="checked">
+          <label for="decodificar">DECODIFICAR</label>
+          <br />
+          <button type="submit">Codificar </button>
+          <br />
+        </div>
+        <hr />
+        <label  for="qualPadrao">Resultado:</label>
+        <br />
+        <hr />
+
+        <textarea type="text" id="mensagemFinal" cols="10" rows="2" placeholder="Mensagem criptografada"></textarea>
+        </main>
+       
+    </form>
+    <div class="butctt">
+      <h3>contato:</h3>
+      <a href="https://github.com/raquelrebelo7" target="_blank" rel="external"><button id="git"></button></a>
+      <a href="https://www.linkedin.com/in/raquel-anastacio-7b255a252/" target="_blank" rel="external"><button id="linkedin"></button></a>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
